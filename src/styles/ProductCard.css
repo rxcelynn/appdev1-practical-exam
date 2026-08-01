@@ -1,0 +1,36 @@
+.product-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  border: 1px solid #e2e8f0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.meta {
+  font-style: italic;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.price, .discount {
+  font-weight: 600;
+  margin: 0.4rem 0;
+}
+
+.status {
+  font-weight: bold;
+  color: #059669;
+}
